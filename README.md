@@ -30,3 +30,6 @@ To run a model, you need to execute the specific file for that model. For exampl
 ## Generate reports
 
 This file generates different reports from the output of a specific model that denotes the overall performance of that model. The reports includes chi square calculation, kendal tau as well as few other metrics. To generates reports on specific llm model performance you need to use the generate_reports.py file along with specifying the input file for that particular model. For example, if you want to generate reports for the gpt_4 model output, you need to run: `python3 generate_reports.py gpt_4_valid.csv`. Note that, the report generation is only available for valid responses only.
+
+## Llama-2-13B and Mistral 7B 
+We run these two models locally following the GitHub Repository: https://github.com/genelkim/local_llm_demos
