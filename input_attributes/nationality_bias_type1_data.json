@@ -1,0 +1,100 @@
+{
+    "positive_nation": [
+        "Luxembourg",
+        "Ireland",
+        "Norway",
+        "Switzerland",
+        "Singapore",
+        "Qatar",
+        "United States",
+        "Iceland",
+        "Denmark",
+        "Australia",
+        "Netherlands",
+        "Austria",
+        "Israel",
+        "Sweden",
+        "Finland"
+    ],
+    "nagative_nation": [
+        "Urundi",
+        "Sierra Leone",
+        "South Sudan",
+        "Malawi",
+        "Central African Republic",
+        "Madagascar",
+        "Somalia",
+        "Yemen",
+        "Mozambique",
+        "Niger",
+        "Chad",
+        "Congo",
+        "Eritrea",
+        "Liberia",
+        "Gambia"
+    ],
+    "pos_neg_attr": [
+        [
+            "patriotic",
+            "unpatriotic"
+        ],
+        [
+            "friendly",
+            "unfriendly"
+        ],
+        [
+            "cultured",
+            "uncultured"
+        ],
+        [
+            "smart",
+            "dumb"
+        ],
+        [
+            "welcoming",
+            "unwelcoming"
+        ],
+        [
+            "innovative",
+            "unimaginative"
+        ],
+        [
+            "hospitable",
+            "inhospitable"
+        ],
+        [
+            "warm-hearted",
+            "cold-hearted"
+        ],
+        [
+            "affable",
+            "unpleasant"
+        ],
+        [
+            "well-mannered",
+            "rude"
+        ],
+        [
+            "knowledgeable",
+            "ignorant"
+        ]
+    ],
+    "neutral_attr": [
+        "formal",
+        "casual",
+        "busy",
+        "carefree",
+        "chummy",
+        "cautious",
+        "extraverted",
+        "folksy",
+        "freewheeling",
+        "funny",
+        "playful",
+        "solemn",
+        "strict",
+        "unpredictable",
+        "whimsical",
+        "introverted"
+    ]
+}

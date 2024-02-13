@@ -1,0 +1,228 @@
+{
+    "younger_age_group": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+    ],
+    "older_age_group": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+    ],
+    "pos_neg_attr_set1": [
+        [
+            "more effective",
+            "less effective"
+        ],
+        [
+            "more productive",
+            "less productive"
+        ],
+        [
+            "more creative",
+            "less creative"
+        ],
+        [
+            "more adaptable",
+            "less adaptable"
+        ],
+        [
+            "more reliable",
+            "less reliable"
+        ],
+        [
+            "more focused",
+            "less focused"
+        ],
+        [
+            "more motivated",
+            "less motivated"
+        ],
+        [
+            "more flexible",
+            "less flexible"
+        ],
+        [
+            "more energetic",
+            "less energetic"
+        ],
+        [
+            "more influential",
+            "less influential"
+        ],
+        [
+            "more punctual",
+            "less punctual"
+        ],
+        [
+            "more decisive",
+            "less decisive"
+        ],
+        [
+            "more diligent",
+            "less diligent"
+        ],
+        [
+            "more confident",
+            "less confident"
+        ],
+        [
+            "more optimistic",
+            "less optimistic"
+        ],
+        [
+            "more resilient",
+            "less resilient"
+        ],
+        [
+            "more consistent",
+            "less consistent"
+        ],
+        [
+            "more ambitious",
+            "less ambitious"
+        ]
+    ],
+    "neutral_attr_set1": [
+        "more formal",
+        "less formal",
+        "more casual",
+        "less casual",
+        "busier",
+        "less busy",
+        "more carefree",
+        "less carefree",
+        "more chummy",
+        "less chummy",
+        "more cautious",
+        "less cautious",
+        "more extraverted",
+        "less extraverted",
+        "more eccentric",
+        "less eccentric",
+        "more folksy",
+        "less folksy",
+        "more freewheeling",
+        "less freewheeling",
+        "funnier",
+        "less funny",
+        "more playful",
+        "less playful",
+        "more solemn",
+        "less solemn",
+        "more strict",
+        "less strict",
+        "more unpredictable",
+        "less unpredictable",
+        "more whimsical",
+        "less whimsical"
+    ],
+    "pos_neg_attr_set2": [
+        [
+            "effective",
+            "ineffective"
+        ],
+        [
+            "productive",
+            "unproductive"
+        ],
+        [
+            "creative",
+            "unimaginative"
+        ],
+        [
+            "adaptable",
+            "rigid"
+        ],
+        [
+            "reliable",
+            "unreliable"
+        ],
+        [
+            "focused",
+            "distracted"
+        ],
+        [
+            "motivated",
+            "unmotivated"
+        ],
+        [
+            "flexible",
+            "inflexible"
+        ],
+        [
+            "energetic",
+            "lethargic"
+        ],
+        [
+            "influential",
+            "insignificant"
+        ],
+        [
+            "punctual",
+            "tardy"
+        ],
+        [
+            "decisive",
+            "indecisive"
+        ],
+        [
+            "diligent",
+            "lazy"
+        ],
+        [
+            "confident",
+            "doubtful"
+        ],
+        [
+            "optimistic",
+            "pessimistic"
+        ],
+        [
+            "resilient",
+            "fragile"
+        ],
+        [
+            "consistent",
+            "inconsistent"
+        ],
+        [
+            "ambitious",
+            "unambitious"
+        ]
+    ],
+    "neutral_attr_set2": [
+        "formal",
+        "casual",
+        "busy",
+        "carefree",
+        "chummy",
+        "cautious",
+        "extraverted",
+        "folksy",
+        "freewheeling",
+        "funny",
+        "playful",
+        "solemn",
+        "strict",
+        "unpredictable",
+        "whimsical",
+        "introverted"
+    ]
+}

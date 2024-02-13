@@ -1,0 +1,50 @@
+{
+    "positive_profession_terms": [
+        "financial manager",
+        "database architect",
+        "aircraft pilot",
+        "surgeon",
+        "software developer",
+        "physician",
+        "cardiologist",
+        "astronomer",
+        "environmental engineer",
+        "medical scientist",
+        "nuclear engineer",
+        "optometrist",
+        "pharmacist",
+        "economist"
+    ],
+    "negative_profession_terms": [
+        "security guard",
+        "transportation service attendance",
+        "cafeteria attendant",
+        "taxi driver",
+        "housekeeper",
+        "street vendor",
+        "lifeguard",
+        "dishwasher",
+        "parking attendence",
+        "animal caretaker",
+        "shoe machine operator",
+        "polishing worker",
+        "laundry worker",
+        "baggage porter"
+    ],
+    "neutral_profession_terms": [
+        "tax examiner",
+        "postal service clerk",
+        "librarian",
+        "surgical assistant",
+        "millwright",
+        "geological technician",
+        "tower operator",
+        "material moving worker",
+        "museum technician",
+        "calibration technician",
+        "curator",
+        "drywall installer",
+        "funeral arranger",
+        "athletic trainer"
+    ]
+}
