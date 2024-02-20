@@ -1,3 +1,6 @@
+# Paper
+You can find the paper related to this work https://arxiv.org/abs/2309.08902
+
 # How to run
 
 Running this project consists of three different steps.
