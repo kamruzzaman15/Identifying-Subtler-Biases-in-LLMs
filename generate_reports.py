@@ -42,7 +42,8 @@ if __name__ == '__main__':
   else:
       filename = sys.argv[1]
 
-  df = pd.read_csv(f'outputs/{filename}')
+  filename = f'outputs/{filename}'
+  df = pd.read_csv(filename)
   framing_df = df.copy()
 
 
@@ -521,7 +522,7 @@ if __name__ == '__main__':
 print('################################ KENDAL TAU CALCULATION #####################################')
 
 # Kendall Tau calculation of type1, corresponding to Table 1/2/3/4 in SAI direction. In the SAI direction, we calculate the Kendall's tau statistic between the binary positive and negative stimulus variable and the ternary positive, negative, and neutral attribute variable.
-df = pd.read_csv('the_dataset_you wanna_test.csv')
+df = pd.read_csv(filename)
 framing_df = df.copy()
 
 x_mapping = {"negative": -1, "positive": 1}
@@ -565,7 +566,7 @@ print(f"P-Value: {p_value}")
 
 # Kendall Tau calculation of type2, corresponding to Table 1/2/3/4 in ASA direction. For ASA, we calculate the statistic between positive and negative attributes and positive, negative, and neutral stimuli.
 
-df = pd.read_csv('the_dataset_you wanna_test.csv')
+df = pd.read_csv(filename)
 framing_df = df.copy()
 
 x_mapping = {"negative": -1, "positive": 1}
@@ -611,7 +612,7 @@ print('################################ KENDAL TAU CALCULATION CONSIDERING IF TH
 
 ## Kendall Tau calculation of type1, corresponding to Table 6 in SAI direction.
 
-framing_df = pd.read_csv('the_dataset_you wanna_test.csv')
+framing_df = pd.read_csv(filename)
 
 def calculate_y_value(row):
     if row['item_category'] == 'negative' and row['response'] == row['stereotype']:
@@ -655,7 +656,7 @@ print(f"P-Value: {p_value}")
 
 ## Kendall Tau calculation of type1, corresponding to Table 6 in ASA direction.
 
-framing_df = pd.read_csv('the_dataset_you wanna_test.csv')
+framing_df = pd.read_csv(filename)
 
 def calculate_y_value(row):
     if row['item_category'] == 'negative' and row['response'] == row['stereotype']:
@@ -702,7 +703,7 @@ print('################################ KENDAL TAU CALCULATION CONSIDERING IF TH
 
 ## Kendall Tau calculation of type1, corresponding to Table 5 in SAI direction.
 
-framing_df = pd.read_csv('the_dataset_you wanna_test.csv')
+framing_df = pd.read_csv(filename)
 
 def calculate_y_value(row):
     if row['item_category'] == 'negative' and row['response'] == row['stereotype']:
@@ -745,7 +746,7 @@ print(f"P-Value: {p_value}")
 
 ## Kendall Tau calculation of type1, corresponding to Table 5 in ASA direction.
 
-framing_df = pd.read_csv('the_dataset_you wanna_test.csv')
+framing_df = pd.read_csv(filename)
 
 def calculate_y_value(row):
     if row['item_category'] == 'negative' and row['response'] == row['stereotype']:
