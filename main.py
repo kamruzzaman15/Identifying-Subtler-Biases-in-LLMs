@@ -15,7 +15,7 @@ parser.add_argument('--mode', choices=['local', 'remote'], default='remote', req
 args = parser.parse_args()
 
 
-dataset_path = "data/test_dataset.csv"
+dataset_path = "data/dataset.csv"
 dataset = pd.read_csv(dataset_path)
 
 model = os.environ['MODEL']
@@ -43,7 +43,7 @@ for col, data in tqdm(dataset.iterrows(), total=len(dataset), desc="Processing")
         if args.mode == 'local':
             response = generate_response_local(model, query)
         else:
-            reponse = generate_response_api(model, query)
+            response = generate_response_api(model, query)
         dataset.loc[col, 'response'] = response.lower()
     except Exception as e:
         print("An error occurred", e)

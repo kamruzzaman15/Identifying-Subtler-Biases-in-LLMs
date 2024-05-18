@@ -1,17 +1,20 @@
 # Investigating Subtler Biases in LLMs: Ageism, Beauty, Institutional, and Nationality Bias in Generative Models
 
-We report the bias correlations that we find for 5 cutting-edge LLMs (GPT-4, GPT-3.5, Mistral-7B, LLama2-13B, Google Palm). This dataset can be used as a benchmark to evaluate progress in more generalized biases, and the templating technique can be used to expand the benchmark with minimal additional human annotation. Moreover, this benchmark can also be used in any other models as below.
+We report the bias correlations that we find for 5 cutting-edge LLMs ([GPT-4](reports/gpt_4_result.txt), [GPT-3.5](reports/gpt_3.5_result.txt), [Mistral-7B](reports/mistral-7B_result.txt), [LLama2-13B](reports/llama2-13B_result.txt), [Google Palm](reports/palm_result.txt)). This dataset can be used as a benchmark to evaluate progress in more generalized biases, and the templating technique can be used to expand the benchmark with minimal additional human annotation. Moreover, this benchmark can also be used in any other models as below.
 
 - This benchmark can be executed using models [from API providers](#run-the-this-benchmark-with-api-providers) or [your local computer](#run-this-bias-benchmark-locally)
 
 ## 🔗 [Paper](https://arxiv.org/abs/2309.08902)
 You can find the paper related to this work [here](https://arxiv.org/abs/2309.08902)
 
+## Dataset
+- See the [dataset.csv](data/dataset.csv) in the [data folder](data)
+- [Dataset Description](data/README.md)
 
 ## Run the this benchmark with API Providers 
 **This method is based on litellm, a library that calls all llm APIs easily. Read more about the docs at [litellm.ai](https://docs.litellm.ai/docs/).**
 
-### 1. Create a virtual environment (Optional)
+### 1. Create a virtual environment (Optional but Recommended)
 
 <details>
 <summary>macOS and Linux</summary>
@@ -67,7 +70,7 @@ ollama run llama3 # llama3 8B
 ollama run gemma # gemma 7B
 ```
 
-### 2. Create a virtual environment (Optional)
+### 2. Create a virtual environment (Optional but Recommended)
 
 <details>
 <summary>macOS and Linux</summary>
@@ -95,5 +98,17 @@ pip install -r requirements.txt
 ### 3. Export environment variables and run
 ```bash
 export MODEL=llama3
+```
+
+#### Run
+
+```bash
+python main.py --model local
+```
+
+#### Run faster (if you have a powerful computer)
+- Follow the guide [here](https://github.com/ollama/ollama/blob/main/docs/faq.md#how-do-i-configure-ollama-server) to configure the Ollama server.
+```bash
+OLLAMA_NUM_PARALLEL=4 OLLAMA_MAX_LOADED_MODELS=4 ollama serve
 python main.py --model local
 ```
