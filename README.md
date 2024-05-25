@@ -8,6 +8,8 @@ Running this project consists of three different steps.
 - Evaluating the dataset with different large language models
 - Generating report for the output of each model
 
+**Notes**: A new library for running this benchmark on all other LLM is avalable at [this github repo](https://github.com/hieuminh65/Identifying-Subtler-Biases-in-LLMs)
+
 ## Install necessary dependencies
 To run the project, you need to install some necessary dependencies first. For that we will be using virtual environment.
 
