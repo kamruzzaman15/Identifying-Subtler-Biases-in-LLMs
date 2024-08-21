@@ -1,5 +1,5 @@
 # Paper
-This work has been accepted at ACL 2024. You can find the paper related to this work https://arxiv.org/abs/2309.08902
+This work has been accepted at ACL 2024. You can find the paper related to this work https://aclanthology.org/2024.findings-acl.530/
 
 # How to run
 
